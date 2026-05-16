@@ -1,0 +1,19 @@
+name: test
+version: '${version}'
+
+main: org.dino.test.Test
+api-version: '1.21.11'
+load: POSTWORLD
+folia-supported: true
+
+commands:
+  tpa:
+  food:
+    description: Give myself food
+    usage: /food
+  nv:
+    description: Give myself night vision
+    usage: /nv
+  seed:
+    description: Get the seed of the world
+    usage: /seed
